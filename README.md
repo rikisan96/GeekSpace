@@ -1,4 +1,4 @@
-# 🎮 Gaming Room Setup Guide
+# 💫 Dream Room Setup Guide
 
 Benvenuto nella guida per creare la **postazione dei sogni!**. 
 
