@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekSpace.Server", "GeekSpace.Server\GeekSpace.Server.csproj", "{A0CEDE22-484C-47F7-B415-7B0C1FAB56F7}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "geekspace.client", "geekspace.client\geekspace.client.esproj", "{D06AF0D5-3CC1-4795-9A49-023B5D11001A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0CEDE22-484C-47F7-B415-7B0C1FAB56F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CEDE22-484C-47F7-B415-7B0C1FAB56F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CEDE22-484C-47F7-B415-7B0C1FAB56F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CEDE22-484C-47F7-B415-7B0C1FAB56F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06AF0D5-3CC1-4795-9A49-023B5D11001A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06AF0D5-3CC1-4795-9A49-023B5D11001A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06AF0D5-3CC1-4795-9A49-023B5D11001A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D06AF0D5-3CC1-4795-9A49-023B5D11001A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06AF0D5-3CC1-4795-9A49-023B5D11001A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06AF0D5-3CC1-4795-9A49-023B5D11001A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FA6AD5E-60FC-4313-A988-D3FD783DD563}
+	EndGlobalSection
+EndGlobal
