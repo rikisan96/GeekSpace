@@ -1,0 +1,2 @@
+//wsl.localhost/Ubuntu-22.04/home/riscaldino/GeekSpace/geekspace.client/obj/Debug/geekspace.client.esproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu-22.04\home\riscaldino\GeekSpace\geekspace.client\obj\Debug\geekspace.client.esproj.CoreCompileInputs.cache

@@ -7,6 +7,7 @@
     <SpaRoot>..\geekspace.client</SpaRoot>
     <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
     <SpaProxyServerUrl>https://localhost:4200</SpaProxyServerUrl>
+    <UserSecretsId>983acda9-9cb9-4a3e-b514-34e3290670c1</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
