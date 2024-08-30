@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\wsl.localhost\\Ubuntu-22.04\\home\\riscaldino\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj": {}
+    "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj": {}
   },
   "projects": {
-    "\\\\wsl.localhost\\Ubuntu-22.04\\home\\riscaldino\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj": {
+    "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\riscaldino\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj",
         "projectName": "GeekSpace.Server",
-        "projectPath": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\riscaldino\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj",
+        "projectPath": "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj",
         "packagesPath": "C:\\Users\\Riscaldino\\.nuget\\packages\\",
-        "outputPath": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\riscaldino\\GeekSpace\\GeekSpace.Server\\obj\\",
+        "outputPath": "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Riscaldino\\AppData\\Roaming\\NuGet\\NuGet.Config",

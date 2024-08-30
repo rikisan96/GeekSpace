@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\riscaldino\\GeekSpace\\GeekSpace.Server\\..\\geekspace.client",
+"WorkingDirectory": "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\..\\geekspace.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

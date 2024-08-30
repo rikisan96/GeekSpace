@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "klOUWFj3Yps=",
+  "dgSpecHash": "i/e+t02bMH8=",
   "success": true,
-  "projectFilePath": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\riscaldino\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj",
+  "projectFilePath": "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Riscaldino\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.8\\microsoft.aspnetcore.spaproxy.8.0.8.nupkg.sha512",
     "C:\\Users\\Riscaldino\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
