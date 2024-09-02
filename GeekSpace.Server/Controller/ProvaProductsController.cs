@@ -4,7 +4,7 @@ namespace GeekSpace.Server.Controllers
 {
     [ApiController]
     [Route("prodotti/[controller]")]
-    public class ProductsController
+    public class ProvaProductsController
     {
 
     }
