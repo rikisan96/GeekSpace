@@ -6,5 +6,6 @@ namespace GeekSpace.Server.Controllers
     [Route("prodotti/[controller]")]
     public class ProductsController
     {
+
     }
 }
