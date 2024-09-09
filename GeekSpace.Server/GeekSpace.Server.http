@@ -1,6 +1,6 @@
 @GeekSpace.Server_HostAddress = http://localhost:40443
 
-GET {{GeekSpace.Server_HostAddress}}/weatherforecast/
+GET {{GeekSpace.Server_HostAddress}}/api/
 Accept: application/json
 
 ###

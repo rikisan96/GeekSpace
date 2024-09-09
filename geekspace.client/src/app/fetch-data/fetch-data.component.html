@@ -1,0 +1,12 @@
+<h1>Fetch Data Component works</h1>
+<div *ngIf="prodotti.length > 0; else noProducts">
+  <ul>
+    <li *ngFor="let prodotto of prodotti">
+      {{ prodotto.prodottoName }} - {{ prodotto.prodottoPriceUnit | currency }}
+    </li>
+  </ul>
+</div>
+
+<ng-template #noProducts>
+  <p>No products found.</p>
+</ng-template>
