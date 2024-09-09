@@ -1,37 +1,23 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
-
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
-}
-
+import { DashboardComponent } from './modules/dashboard/dashboard.component';
+import { Component } from '@angular/core';
+import { ThemeService } from './core/services/theme.service';
+import { RouterOutlet } from '@angular/router';
+import { NgClass } from '@angular/common';
+import { ResponsiveHelperComponent } from './shared/components/responsive-helper/responsive-helper.component';
+import { NgxSonnerToaster, toast } from 'ngx-sonner';
+import { NftComponent } from './modules/dashboard/pages/nft/nft.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.scss'],
+  standalone: true,
+  imports: [NgClass,DashboardComponent, NftComponent , RouterOutlet, ResponsiveHelperComponent, NgxSonnerToaster],
 })
-export class AppComponent implements OnInit {
-  public forecasts: WeatherForecast[] = [];
+export class AppComponent {
+  title = 'Geekspace!';
 
-  constructor(private http: HttpClient) {}
+  constructor(public themeService: ThemeService ) {
 
-  ngOnInit() {
-    this.getForecasts();
+    setTimeout(()=>toast("Ciao"),8100)
   }
-
-  getForecasts() {
-    this.http.get<WeatherForecast[]>('api/weatherforecast').subscribe(
-      (result) => {
-        this.forecasts = result;
-      },
-      (error) => {
-        console.error(error);
-      }
-    );
-  }
-
-  title = 'geekspace.client';
 }
