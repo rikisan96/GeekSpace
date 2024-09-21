@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj": {}
+    "/home/riscaldino_pop/GeekSpace/GeekSpace.Server/GeekSpace.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj": {
+    "/home/riscaldino_pop/GeekSpace/GeekSpace.Server/GeekSpace.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj",
+        "projectUniqueName": "/home/riscaldino_pop/GeekSpace/GeekSpace.Server/GeekSpace.Server.csproj",
         "projectName": "GeekSpace.Server",
-        "projectPath": "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\GeekSpace.Server.csproj",
-        "packagesPath": "C:\\Users\\Riscaldino\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Riscaldino\\Desktop\\GeekSpace\\GeekSpace\\GeekSpace.Server\\obj\\",
+        "projectPath": "/home/riscaldino_pop/GeekSpace/GeekSpace.Server/GeekSpace.Server.csproj",
+        "packagesPath": "/home/riscaldino_pop/.nuget/packages/",
+        "outputPath": "/home/riscaldino_pop/GeekSpace/GeekSpace.Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Riscaldino\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/riscaldino_pop/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -92,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
