@@ -1,4 +1,5 @@
-# 💫 Dream Room Setup Guide
+# Geekspace
+## 💫 Create you own geek den!
 
 Benvenuto nella guida per creare la **postazione dei sogni!**. 
 
