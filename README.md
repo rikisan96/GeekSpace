@@ -1,12 +1,10 @@
 # Geekspace
-## 💫 Create you own geek den!
+## 💫 Create your geek den!
 
 Benvenuto nella guida per creare la **postazione dei sogni!**. 
 
 Sul nostro E-commerce, e' possibile progettare passo passo la tua postazione di lavoro, gaming o semplicemente un tuo spazio confortevole passo passo, con l'aiuto della nostra UI e del nostro Wizard!
-
 Segui questi passaggi per progettare la tua gaming room, scegliendo tra diversi stili di design e prodotti correlati.
-
 
 ## 1. 🌟 Stili di Design
 
@@ -16,7 +14,6 @@ Esplora vari stili di design, ciascuno con prodotti abbinati:
 - 🚀 **Futuristic**: High-tech e LED.
 - 🎸 **Retro**: Mobili vintage e colori vivaci.
 - 🏭 **Industrial**: Metallo e legno grezzo.
-- 🧙‍♂️ **Fantasy**: Un tocco di magia e fantasia.
 
 ## 2. 📚 Scopri i Design
 
@@ -54,3 +51,21 @@ Seleziona preferenze di colore, singoli o a coppie, per creare un design armonio
 ---
 
 **Inizia ora** a progettare la tua gaming room esplorando i nostri stili e articoli consigliati!
+
+---
+
+# Tecnologie Utilizzate: 
+
+Frontend:
+    🅰️ Angular 18, Angular Material (stepper),
+    💨 Tailwind;
+Backend:
+    🌐 ASP .NET Web API (dotnet 8.0), EntityFramework 
+    🗄️ Microsoft SQL Server 
+
+HTML5, CSS, TypeScript, C#, Git (CLI), Github
+
+ 🐧Sviluppato su Linux (Debian based PopOS!_22.04):
+    💻 Emulatore terminale: WezTerm,
+    🇳 Text Editor: Neovim
+    💾 Gestore di sessioni e multiplexer: Zellij;
