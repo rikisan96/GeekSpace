@@ -57,15 +57,15 @@ Seleziona preferenze di colore, singoli o a coppie, per creare un design armonio
 # Tecnologie Utilizzate: 
 
 Frontend:
-    🅰️ Angular 18, Angular Material (stepper),
-    💨 Tailwind;
+   - 🅰️ Angular 18, Angular Material (stepper),
+   - 💨 Tailwind;
 Backend:
-    🌐 ASP .NET Web API (dotnet 8.0), EntityFramework 
-    🗄️ Microsoft SQL Server 
+   - 🌐 ASP .NET Web API (dotnet 8.0), EntityFramework 
+   - 🗄️ Microsoft SQL Server 
 
-HTML5, CSS, TypeScript, C#, Git (CLI), Github
+### HTML5, CSS, TypeScript, C#, Git (CLI), Github
 
  🐧Sviluppato su Linux (Debian based PopOS!_22.04):
-    💻 Emulatore terminale: WezTerm,
-    🇳 Text Editor: Neovim
-    💾 Gestore di sessioni e multiplexer: Zellij;
+   - 💻 Emulatore terminale: WezTerm,
+   - 🇳 Text Editor: Neovim
+   - 💾 Gestore di sessioni e multiplexer: Zellij;
