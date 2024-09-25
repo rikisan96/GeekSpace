@@ -3,8 +3,8 @@
 
 Benvenuto nella guida per creare la **postazione dei sogni!**. 
 
-Sul nostro E-commerce, e' possibile progettare passo passo la tua postazione di lavoro, gaming o semplicemente un tuo spazio confortevole passo passo, con l'aiuto della nostra UI e del nostro Wizard!
-Segui questi passaggi per progettare la tua gaming room, scegliendo tra diversi stili di design e prodotti correlati.
+Su Geekspace e' possibile progettare passo passo la tua postazione di lavoro, gaming o semplicemente un tuo spazio completamente personalizzato da te, grazie al nostro Wizard!
+Segui gli step necessari proposti per progettare la tua postazione, scegliendo e filtrando tra diversi stili di design e prodotti correlati.
 
 ## 1. 🌟 Stili di Design
 
@@ -17,12 +17,10 @@ Esplora vari stili di design, ciascuno con prodotti abbinati:
 
 ## 2. 📚 Scopri i Design
 
-Familiarizzati con i design attraverso:
+Lasciati inspirare dai design gia' creati dagli altri utenti!
 
-- Immagini e video di stanze già realizzate.
 
-## 3. 🛠 Creazione della Tua Room
-
+## 3. 🛠 Creazione della Tua Room (Work in progress 🚧 🔨 ⏳)
 ### Step 1: 📌 Definisci l'Utilizzo
 
 Decidi come userai la postazione:
@@ -59,6 +57,7 @@ Seleziona preferenze di colore, singoli o a coppie, per creare un design armonio
 Frontend:
    - 🅰️ Angular 18, Angular Material (stepper),
    - 💨 Tailwind;
+
 Backend:
    - 🌐 ASP .NET Web API (dotnet 8.0), EntityFramework 
    - 🗄️ Microsoft SQL Server 
