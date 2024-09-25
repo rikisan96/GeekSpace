@@ -3,7 +3,7 @@ import { CurrencyPipe, NgStyle } from '@angular/common';
 import { Prodotti } from '../../models/prodotto';
 
 @Component({
-  selector: '[single-product]',
+  selector: 'app-single-product',
   templateUrl: './prodotti.component.html',
   standalone:true,
   imports: [NgStyle, CurrencyPipe],

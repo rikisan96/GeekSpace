@@ -1,18 +1,19 @@
 import { Component } from '@angular/core';
-import { NftSingleCardComponent } from '../../components/nft/nft-single-card/nft-single-card.component';
 import { Prodotti } from '../../models/prodotto';
+import { CommonModule, CurrencyPipe } from '@angular/common';
+import { SingleProductComponent } from '../../components/prodotti/prodotti.component';
 
 @Component({
   selector: 'app-main-block',
   templateUrl: './main-block.component.html',
   standalone: true,
-  imports: [
+  imports: [CurrencyPipe, CommonModule, SingleProductComponent
   ]
 })
 export class MainBlockComponent {
 
-}
-const prodotti: Prodotti[] = [
+
+prodotti: Prodotti[] = [
   {
     idProdotto: 1,
     prodottoName: "Minimalistic Desk Lamp",
@@ -154,3 +155,4 @@ const prodotti: Prodotti[] = [
     prodottoPicture: "fantasy_wizard_staff.jpg"
   }
 ];
+}
