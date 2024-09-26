@@ -1,19 +1,26 @@
-import { Component } from '@angular/core';
-import { Prodotti } from '../../models/prodotto';
-import { CommonModule, CurrencyPipe } from '@angular/common';
-import { SingleProductComponent } from '../../components/prodotti/prodotti.component';
 
-@Component({
-  selector: 'app-main-block',
-  templateUrl: './main-block.component.html',
-  standalone: true,
-  imports: [CurrencyPipe, CommonModule, SingleProductComponent
-  ]
-})
-export class MainBlockComponent {
+export interface Prodotti {
+    idProdotto: number;
+    prodottoName: string | null;
+    tipoNature: number | null;
+    prodottoPrimaryColour: string | null;
+    prodottoSecondaryColour: string | null;
+    prodottoIsRgb: number | null;
+    prodottoPriceUnit: number | null;
+    prodottoDescription: string | null;
+    prodottoIsAvaiable: number | null;
+    tipoDesign: number | null;
+    prodottoBrand: string | null;
+    prodottoPicture: string | null;
+    // elementiCarrellos: ElementiCarrello[];
+    // tipoDesignNavigation: Tipo | null;
+    // tipoNatureNavigation: Tipo | null;
+}
 
+//roba commentata da integrare con merge su backend
+//NON INSERIRE PRODOTTI 
 
-prodotti: Prodotti[] = [
+const prodotti: Prodotti[] = [
   {
     idProdotto: 1,
     prodottoName: 'Minimalistic Workstation A1',
@@ -155,4 +162,3 @@ prodotti: Prodotti[] = [
     prodottoPicture: 'fantasy_mouse_f7.jpg'
   }
 ];
-}
