@@ -89,6 +89,7 @@ module.exports = {
     fontFamily: {
       poppins: ['Poppins', 'system-ui', 'sans-serif'],
       nunito: ['Nunito Sans', 'sans-serif'],
+      audiowide: ['audiowide', 'system-ui', 'sans-serif']
     },
     container: {
       padding: {
