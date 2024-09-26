@@ -7,14 +7,17 @@
   <!-- Description  -->
   <h2 class="text-md mt-6 font-semibold text-foreground">{{ prodotti.prodottoName }}</h2>
   <div class="dflex items-end justify-between text-sm font-semibold text-muted-foreground">
-    Last Bid: {{prodotti.prodottoName }} ETH
-    <span>{{ prodotti.prodottoPriceUnit | currency }}</span>
+    <span class="text-md mt-6 font-semibold text-foreground pr-3"> {{prodotti.prodottoBrand}} </span>
+    <span class="text-md mt-6 font-semibold text-foreground pr-3"> {{prodotti.tipoNature}} </span>
+    <span class="text-md mt-6 font-semibold text-foreground pr-3">{{ prodotti.prodottoPriceUnit | currency }}</span>
+    <div> {{prodotti.prodottoDescription}} </div>
+
   </div>
   <!-- Buttons -->
   <div class="mt-6 flex items-center justify-between">
     <button
-      class="hover:bg-primary-600 flex-none rounded-md bg-primary px-4 py-2.5 text-xs font-semibold text-primary-foreground">
-      Aggiungi al carrello
+      class="hover:bg-primary-600 flex-none rounded-md bg-primary px-6 py-2.5 text-xs font-semibold text-primary-foreground">
+      Aggiungi design
     </button>
     <button
       class="lex-none rounded-md bg-card px-4 py-2.5 text-xs font-semibold text-muted-foreground hover:bg-muted hover:text-foreground">
