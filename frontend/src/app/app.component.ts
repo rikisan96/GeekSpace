@@ -1,4 +1,3 @@
-import { NavbarComponent } from './modules/layout/components/navbar/navbar.component';
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
 import { Component, OnInit } from '@angular/core'; // Importa OnInit
 import { ThemeService } from './core/services/theme.service';
@@ -17,8 +16,8 @@ import { HttpClient } from '@angular/common/http';
   imports: [NgClass, DashboardComponent, NftComponent, RouterOutlet, ResponsiveHelperComponent, NgxSonnerToaster],
 })
 export class AppComponent implements OnInit {  // Implementa l'interfaccia OnInit
-  constructor(public themeService: ThemeService ) {}
-
+  constructor(public themeService: ThemeService,  ) {}
+// public prodottiService: prodotti-service
   // Implementa il metodo ngOnInit
   ngOnInit(): void {
      setTimeout(() => toast("Benvenuto!"), 8100); // Esegui la logica di inizializzazione qui

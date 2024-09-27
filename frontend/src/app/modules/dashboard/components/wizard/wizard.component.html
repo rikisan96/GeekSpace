@@ -1,1 +1,145 @@
-<p>wizard works!</p>
+
+<mat-horizontal-stepper [linear]="true" #stepper>
+  <!-- Step 1: Design -->
+  <mat-step [stepControl]="designFormGroup">
+    <form [formGroup]="designFormGroup">
+      <ng-template matStepLabel>Design</ng-template>
+      <mat-form-field appearance="fill">
+        <mat-label>Scegli il tipo di Design</mat-label>
+        <mat-select formControlName="designType" (selectionChange)="onDesignSelection()">
+          <mat-option *ngFor="let design of designTypes" [value]="design">{{design}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperNext>Scegli Hardware</button>
+      </div>
+    </form>
+  </mat-step>
+
+  <!-- Step 2: Hardware -->
+  <mat-step [stepControl]="hardwareFormGroup">
+    <form [formGroup]="hardwareFormGroup">
+      <ng-template matStepLabel>Hardware</ng-template>
+      <mat-form-field appearance="fill">
+        <mat-label>Scegli Hardware</mat-label>
+        <mat-select formControlName="hardware" (selectionChange)="onHardwareSelection()">
+          <mat-option *ngFor="let hardware of filteredHardware" [value]="hardware">{{hardware}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperPrevious>Indietro</button>
+        <button mat-button matStepperNext>Scegli Arredamento</button>
+      </div>
+    </form>
+  </mat-step>
+
+  <!-- Step 3: Arredamento -->
+  <mat-step [stepControl]="arredamentoFormGroup">
+    <form [formGroup]="arredamentoFormGroup">
+      <ng-template matStepLabel>Arredamento</ng-template>
+      <mat-form-field appearance="fill">
+        <mat-label>Scegli Arredamento</mat-label>
+        <mat-select formControlName="arredamento">
+          <mat-option *ngFor="let item of filteredArredamento" [value]="item">{{item}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperPrevious>Indietro</button>
+        <button mat-button matStepperNext>Scegli Illuminazione</button>
+      </div>
+    </form>
+  </mat-step>
+
+  <!-- Step 4: Illuminazione -->
+  <mat-step [stepControl]="illuminazioneFormGroup">
+    <form [formGroup]="illuminazioneFormGroup">
+      <ng-template matStepLabel>Illuminazione</ng-template>
+      <mat-form-field appearance="fill">
+        <mat-label>Scegli Illuminazione</mat-label>
+        <mat-select formControlName="illuminazione">
+          <mat-option *ngFor="let light of filteredIlluminazione" [value]="light">{{light}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperPrevious>Indietro</button>
+        <button mat-button matStepperNext>Scegli Accessori</button>
+      </div>
+    </form>
+  </mat-step>
+
+  <!-- Step 5: Accessori -->
+  <mat-step [stepControl]="accessoriFormGroup">
+    <form [formGroup]="accessoriFormGroup">
+      <ng-template matStepLabel>Accessori</ng-template>
+      <mat-form-field appearance="fill">
+        <mat-label>Scegli Accessori</mat-label>
+        <mat-select formControlName="accessori">
+          <mat-option *ngFor="let accessory of filteredAccessori" [value]="accessory">{{accessory}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperPrevious>Indietro</button>
+        <button mat-button (click)="submitDesign()">Conferma</button>
+      </div>
+    </form>
+  </mat-step>
+</mat-horizontal-stepper>
+
+<!-- <label for="demo-optional-label-group">Pick the text for the optional label</label> -->
+<!-- <mat-radio-group -->
+<!--   id="demo-optional-label-group" -->
+<!--   class="demo-radio-group" -->
+<!--   [(ngModel)]="optionalLabelText" -->
+<!--   (ngModelChange)="updateOptionalLabel()"> -->
+<!--   @for (optionalLabelTextChoice of optionalLabelTextChoices; track optionalLabelTextChoice) { -->
+<!--     <mat-radio-button -->
+<!--       class="demo-radio-button" -->
+<!--       [value]="optionalLabelTextChoice">{{optionalLabelTextChoice}}</mat-radio-button> -->
+<!--   } -->
+<!-- </mat-radio-group> -->
+<!-- <mat-stepper class="demo-stepper" #stepper> -->
+<!--   <mat-step [stepControl]="firstFormGroup"> -->
+<!--     <form [formGroup]="firstFormGroup"> -->
+<!--       <ng-template matStepLabel>Fill out your name</ng-template> -->
+<!--       <mat-form-field class="demo-form-field"> -->
+<!--         <mat-label>Name</mat-label> -->
+<!--         <input -->
+<!--           matInput -->
+<!--           placeholder="Last name, First name" -->
+<!--           formControlName="firstCtrl" -->
+<!--           required -->
+<!--         /> -->
+<!--       </mat-form-field> -->
+<!--       <div> -->
+<!--         <button mat-button matStepperNext>Next</button> -->
+<!--       </div> -->
+<!--     </form> -->
+<!--   </mat-step> -->
+<!--   <mat-step -->
+<!--     [stepControl]="secondFormGroup" -->
+<!--     label="Fill out your address" -->
+<!--     optional> -->
+<!--     <form [formGroup]="secondFormGroup"> -->
+<!--       <mat-form-field> -->
+<!--         <mat-label>Address</mat-label> -->
+<!--         <input -->
+<!--           matInput -->
+<!--           formControlName="secondCtrl" -->
+<!--           placeholder="Ex. 1 Main St, New York, NY" -->
+<!--         /> -->
+<!--       </mat-form-field> -->
+<!--       <div> -->
+<!--         <button mat-button matStepperPrevious>Back</button> -->
+<!--         <button mat-button matStepperNext>Next</button> -->
+<!--       </div> -->
+<!--     </form> -->
+<!--   </mat-step> -->
+<!--   <mat-step> -->
+<!--     <ng-template matStepLabel>Done</ng-template> -->
+<!--     <p>You are now done.</p> -->
+<!--     <div> -->
+<!--       <button mat-button matStepperPrevious>Back</button> -->
+<!--       <button mat-button (click)="stepper.reset()">Reset</button> -->
+<!--     </div> -->
+<!--   </mat-step> -->
+<!-- </mat-stepper> -->
