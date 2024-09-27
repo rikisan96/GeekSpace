@@ -9,6 +9,7 @@ const routes: Routes = [
     component: DashboardComponent,
     children: [
       { path: '', redirectTo: 'main-block', pathMatch: 'full' },
+      // { path: 'wizard', component: WizardComponent},
       { path: 'main-block', component: MainBlockComponent },
       { path: '**', redirectTo: 'errors/404' },
     ],

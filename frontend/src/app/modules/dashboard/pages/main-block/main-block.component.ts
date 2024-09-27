@@ -26,7 +26,7 @@ prodotti: Prodotti[] = [
     prodottoIsAvaiable: 1,
     tipoDesign: 1, // Minimalistic
     prodottoBrand: 'Simplicity',
-    prodottoPicture: 'minimalistic_workstation_a1.jpg'
+    prodottoPicture: 'https://cdn.mos.cms.futurecdn.net/5pKYKNoLQT6QaqSAM6fT3R-970-80.jpg'
   },
   {
     idProdotto: 2,
@@ -40,7 +40,7 @@ prodotti: Prodotti[] = [
     prodottoIsAvaiable: 1,
     tipoDesign: 2, // Futuristic
     prodottoBrand: 'FuturaTech',
-    prodottoPicture: 'futuristic_workstation_x2.jpg'
+    prodottoPicture: 'https://imgs.search.brave.com/78NEZY4iALMlLRFn03IpPbBP56Q2fe_J8so15jJVmtM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzI4LzE0/LzMyLzI4MTQzMjdk/YTI4YzRhNmNkN2Y5/NDhkNmZjOTllZDdl/LS1nYW1pbmctY29t/cHV0ZXItY29tcHV0/ZXItY2FzZS5qcGc'
   },
   {
     idProdotto: 3,
@@ -54,7 +54,7 @@ prodotti: Prodotti[] = [
     prodottoIsAvaiable: 1,
     tipoDesign: 3, // Retro
     prodottoBrand: 'RetroGear',
-    prodottoPicture: 'retro_workstation_classic_r3.jpg'
+    prodottoPicture: 'https://imgs.search.brave.com/IxveFNfWO1pDLp5FBKpWA6o_DjIMJa1HQt5s3_eq0Lc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9iZXRh/c2ltcmFjaW5nLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8wNC9BbnRlYy1E/YXJrLUN1YmUtSVRY/LUNhc2UtNDI3eDUw/MC53ZWJw'
   },
   {
     idProdotto: 4,
@@ -68,21 +68,21 @@ prodotti: Prodotti[] = [
     prodottoIsAvaiable: 1,
     tipoDesign: 4, // Industrial
     prodottoBrand: 'IndustroMax',
-    prodottoPicture: 'industrial_workstation_pro_i4.jpg'
+    prodottoPicture: 'https://imgs.search.brave.com/CKklV7A7vGU5ABKhw7bm7Zxi0uBVb5ME7Y9koYNLZCs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly92b2x0/Y2F2ZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjAvMDQv/cm9iZXl0ZWNoLXNl/bm5hLWZlYXR1cmVk/LWltYWdlLndlYnA'
   },
   {
     idProdotto: 5,
-    prodottoName: 'Fantasy Workstation Mystic F5',
+    prodottoName: 'Icy Workstation Case Mystic F5',
     tipoNature: 5, // Fantasy
-    prodottoPrimaryColour: 'Purple',
-    prodottoSecondaryColour: 'Gold',
+    prodottoPrimaryColour: 'Green',
+    prodottoSecondaryColour: 'Black',
     prodottoIsRgb: 1,
     prodottoPriceUnit: 899.99,
-    prodottoDescription: 'A magical workstation for creative minds.',
+    prodottoDescription: 'A very COOL case for creative minds.',
     prodottoIsAvaiable: 1,
     tipoDesign: 5, // Fantasy
     prodottoBrand: 'MysticTech',
-    prodottoPicture: 'fantasy_workstation_mystic_f5.jpg'
+    prodottoPicture: 'https://gamerbox.it/8878-large_default/case-thermaltake-the-tower-200-mini-tower-verde-scuro-tempered-glass.jpg'
   },
   {
     idProdotto: 6,
@@ -96,7 +96,7 @@ prodotti: Prodotti[] = [
     prodottoIsAvaiable: 1,
     tipoDesign: 1, // Minimalistic
     prodottoBrand: 'CleanSpace',
-    prodottoPicture: 'minimalistic_desk_b2.jpg'
+    prodottoPicture: 'https://computerdeskideas.com/wp-content/uploads/2021/12/Black-White-Minimal-Setup-with-Wall-mounted-PC-and-Desk-768x576.jpg'
   },
   {
     idProdotto: 7,
@@ -110,7 +110,7 @@ prodotti: Prodotti[] = [
     prodottoIsAvaiable: 1,
     tipoDesign: 2, // Futuristic
     prodottoBrand: 'FuturaSeat',
-    prodottoPicture: 'futuristic_chair_z1.jpg'
+    prodottoPicture: 'https://imgs.search.brave.com/KyahC-4bMisUTW_muIIaQ41ivdBbT5JK-kV9Gno0kNc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFWMWJNVzh3aEwu/anBn'
   },
   {
     idProdotto: 8,
@@ -124,7 +124,7 @@ prodotti: Prodotti[] = [
     prodottoIsAvaiable: 1,
     tipoDesign: 3, // Retro
     prodottoBrand: 'RetroDisplay',
-    prodottoPicture: 'retro_monitor_r4.jpg'
+    prodottoPicture: 'https://i.etsystatic.com/20693881/r/il/50bad9/6296120864/il_340x270.6296120864_kgaj.jpg'
   },
   {
     idProdotto: 9,
@@ -138,7 +138,7 @@ prodotti: Prodotti[] = [
     prodottoIsAvaiable: 1,
     tipoDesign: 4, // Industrial
     prodottoBrand: 'SteelKeys',
-    prodottoPicture: 'industrial_keyboard_i6.jpg'
+    prodottoPicture: 'https://m.media-amazon.com/images/I/61ejFo8s57L.__AC_SX300_SY300_QL70_FMwebp_.jpg'
   },
   {
     idProdotto: 10,
@@ -152,7 +152,7 @@ prodotti: Prodotti[] = [
     prodottoIsAvaiable: 1,
     tipoDesign: 5, // Fantasy
     prodottoBrand: 'MysticMouse',
-    prodottoPicture: 'fantasy_mouse_f7.jpg'
+    prodottoPicture: 'https://m.media-amazon.com/images/I/61AcT0ZuO3L._AC_SL1500_.jpg'
   }
 ];
 }

@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {  // Implementa l'interfaccia OnIni
 
   // Implementa il metodo ngOnInit
   ngOnInit(): void {
-    // setTimeout(() => toast("Ciao"), 8100); // Esegui la logica di inizializzazione qui
+     setTimeout(() => toast("Benvenuto!"), 8100); // Esegui la logica di inizializzazione qui
   }
 }
 
