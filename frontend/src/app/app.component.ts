@@ -6,14 +6,13 @@ import { NgClass } from '@angular/common';
 import { ResponsiveHelperComponent } from './shared/components/responsive-helper/responsive-helper.component';
 import { NgxSonnerToaster, toast } from 'ngx-sonner';
 import { NftComponent } from './modules/dashboard/pages/nft/nft.component';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   standalone: true,
-  imports: [NgClass, DashboardComponent, NftComponent, RouterOutlet, ResponsiveHelperComponent, NgxSonnerToaster],
+  imports: [NgClass, DashboardComponent,NftComponent, RouterOutlet, ResponsiveHelperComponent, NgxSonnerToaster],
 })
 export class AppComponent implements OnInit {  // Implementa l'interfaccia OnInit
   constructor(public themeService: ThemeService,  ) {}
