@@ -1,0 +1,24 @@
+services:
+  backend:
+    build: ./backend
+    user: root
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/var/www/aspnetcoreapp
+  mssql:
+      container_name: mssql
+      image: mcr.microsoft.com/mssql/server:2022-latest
+      volumes:
+          - data:/var/opt/mssql
+      ports:
+          - 1433:1433
+      environment:
+          - ACCEPT_EULA=Y
+          - MSSQL_SA_PASSWORD=Kolopone96
+          - MSSQL_PID=Express
+      networks:
+          - default
+volumes:
+  data:
+    driver: local
